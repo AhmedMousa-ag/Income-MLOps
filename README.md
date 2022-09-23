@@ -21,3 +21,5 @@ Used 2 sets of data versioning. one is the full dataset and the other is feature
 .
 .
 14- TF Neural_Network --> "79.8%", "Full Feature" # Probably should have picked better architecture. 
+
+![image](https://user-images.githubusercontent.com/59775002/191982345-981fba04-8a68-406d-809f-4a91e5a7a8bf.png)
