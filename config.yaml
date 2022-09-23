@@ -1,0 +1,11 @@
+paths:
+  raw_data: "Data/Raw_data/income_threshold.csv"
+  prep_data: "Data/Prep_data"
+
+prep_data_names:
+  - full_feature
+  - selected_feature
+
+tracking_uri: "http://127.0.0.1:5000"
+
+exp_name: "tf_xgboost_skl_no_hyperames_search"

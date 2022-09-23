@@ -193,4 +193,4 @@ def load_data(data_version, main_path):
     y_train = pd.read_csv(main_path + "/" + data_version + "/" + "y_train.csv")
     x_test = pd.read_csv(main_path + "/" + data_version + "/" + "x_test.csv")
     y_test = pd.read_csv(main_path + "/" + data_version + "/" + "y_test.csv")
-    return x_train, y_train, x_test, y_test
+    return np.array(x_train), np.array(y_train), np.array(x_test), np.array(y_test)

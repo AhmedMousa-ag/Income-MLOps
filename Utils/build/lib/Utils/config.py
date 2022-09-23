@@ -1,5 +1,6 @@
 import yaml
 
+
 def load_config_file(path="config.yaml"):
     """This function load our config yaml file
     Args:
@@ -10,6 +11,8 @@ def load_config_file(path="config.yaml"):
         config_file = yaml.safe_load(fw)
     return config_file
     # -----------
+
+
 def write_to_yaml(write_file, path="config.yaml"):
     """ It writes dynamically our specified configuration to our config file
     Args:
